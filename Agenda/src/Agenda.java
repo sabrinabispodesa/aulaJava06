@@ -5,7 +5,7 @@ public class Agenda {
     private int ddTelefone;
     private int telefone;
 
-    public Agenda(){
+    public Agenda(String nome, String email, int ddTelefone, int telefone){
         this.nome = nome;
         this.email = email;
         this.ddTelefone = ddTelefone;
